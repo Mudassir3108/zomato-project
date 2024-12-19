@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#main-body{
+    /* border: 5px solid green; */
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 16px;
+    margin-top: 36px;
+}
+
+#services{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+#services #options{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+}
+
+#services #options:hover{
+    transform: scale(1.05);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+#services #options #image{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+#options #image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: bottom center;
+    border-radius: 12px;
+}
+
+#info{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    border: 2px solid #eee;
+    padding: 10px 20px 16px 20px;
+    border-radius: 0 0 12px 12px;
+    line-height: 30px;
+}
+
+#info h2{
+    color: #363636;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#info p{
+    color: #4f4f4f;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
